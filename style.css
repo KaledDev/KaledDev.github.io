@@ -7,13 +7,13 @@
     box-sizing: border-box;
 }
 body{
-    width: 1440px;
+    width: 1310px;
     height: 1080px;
     border-radius: 8px;
 }
 .container{
     position: relative;
-    width: 1440px;
+    width: 1310px;
     height: 1080px;
 }
 .logo{
