@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@700&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@700&family=Montserrat:wght@400;600&family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@700&family=Montserrat:wght@700&family=Space+Mono:wght@700&display=swap');
+::after , ::before {
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1440px;
+    height: 1080px;
+    border-radius: 8px;
+}
+.container{
+    position: relative;
+    width: 1440px;
+    height: 1080px;
+}
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 77px;
+    font-size: 24px;
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    color: #333333;
+}
+.textSection h1{
+    font-family: 'Space Mono';
+    font-size: 64px;
+    font-weight: 100;
+    color: #333333;
+}
+.textSection p {
+    font-family: 'Space Mono';
+    font-weight: 400;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+.heroSection img {
+    width: 539.22px;
+    height: 447.43px;
+    margin-right: 75px;
+}
+.heroSection{
+    display: flex;
+    position: absolute;
+    top: 265px;
+    left: 77px;
+}
+.homePage{
+    width: 216px;
+    height: 68px;
+    font-size: 14px;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    border: none;
+    background: #333333;
+    color: #FFFFFF;
+}
+footer p {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #BDBDBD;
+    text-align: center;
+}
+@media screen and (max-width:768px){
+    body{
+        width: 768px;
+        height: 1024px;
+        border-radius: 8px;
+    }
+
+    .container{
+        position: static;
+        width: 768px;
+        height: 1024px;
+    }
+    .heroSection{
+        display: flex;
+        flex-direction: column;
+        top: 265px;
+        left: 77px;
+    }
+    .heroSection img {
+    margin-top: -160px; 
+    margin-bottom: 40px; 
+     }
+     .textSection{
+        margin-top: -80px;
+     }
+
+     .logo{
+        position: absolute;
+        top: 20px;
+     }
+}
